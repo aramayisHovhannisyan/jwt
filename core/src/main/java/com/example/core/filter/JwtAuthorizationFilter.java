@@ -1,4 +1,4 @@
-package com.example.jwt.filter;
+package com.example.core.filter;
 
 import io.jsonwebtoken.*;
 import org.apache.commons.lang3.StringUtils;

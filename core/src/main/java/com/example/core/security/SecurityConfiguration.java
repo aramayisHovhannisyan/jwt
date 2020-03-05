@@ -1,7 +1,7 @@
-package com.example.jwt.security;
+package com.example.core.security;
 
-import com.example.jwt.filter.JwtAuthenticationFilter;
-import com.example.jwt.filter.JwtAuthorizationFilter;
+import com.example.core.filter.JwtAuthenticationFilter;
+import com.example.core.filter.JwtAuthorizationFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;

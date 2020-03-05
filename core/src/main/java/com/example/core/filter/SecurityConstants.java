@@ -1,4 +1,4 @@
-package com.example.jwt.filter;
+package com.example.core.filter;
 
 public final class SecurityConstants {
 
