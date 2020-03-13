@@ -45,7 +45,6 @@
           required
           email
           #email="ngModel"
-          id="email"
         />
         <div class="alert-danger" *ngIf="f.submitted && email.invalid">
           <div *ngIf="email.errors.required">Email is required</div>
@@ -64,7 +63,6 @@
           required
           minlength="6"
           #password="ngModel"
-          id="password"
         />
         <div class="alert-danger" *ngIf="f.submitted && password.invalid">
           <div *ngIf="password.errors.required">Password is required</div>
